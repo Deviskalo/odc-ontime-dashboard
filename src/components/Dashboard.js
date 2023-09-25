@@ -33,9 +33,17 @@ const Dashboard = () => {
     scales: {
       x: {
         type: "category", // Set the x-axis scale to "category"
+        title: {
+          display: true,
+          text: "Months",
+        },
       },
       y: {
         beginAtZero: true,
+        title: {
+          display: true,
+          text: "Value",
+        },
       },
     },
   };
