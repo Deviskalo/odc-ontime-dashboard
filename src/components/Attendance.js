@@ -1,7 +1,7 @@
 import React from "react";
 
 const Attendance = () => {
-  return <div>Attendance</div>;
+  return <div className="mt-20">Attendance</div>;
 };
 
 export default Attendance;

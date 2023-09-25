@@ -1,7 +1,7 @@
 import React from "react";
 
 const Activities = () => {
-  return <div>Activities</div>;
+  return <div className="mt-20">Activities</div>;
 };
 
 export default Activities;

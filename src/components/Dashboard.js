@@ -58,17 +58,28 @@ const Dashboard = () => {
   return (
     <div className="mt-20">
       <div className="flex mt-4 p-4 gap-4">
-        <div className="w-1/2 border-black border h-20 p-4 rounded-[20px]">
-          <p>Hello world</p>
-          <p>Hello world</p>
+        <div className="w-1/2 flex border-black border justify-center align-center h-20 p-4 rounded-[20px]">
+          <p className="sm:font-bold tablet md:text-sm mt-0 absolute 2xl:text-bold pt-[1px]">
+            Total Logged In Users
+          </p>
+          <p className="my-4 text-center p-2">100</p>
         </div>
-        <div className="w-1/2 border-black border h-20 p-4 rounded-[20px]">
-          <p>Hello world</p>
-          <p>Hello world</p>
+        <div className="w-1/2 flex border-black border justify-center align-center h-20 p-4 rounded-[20px]">
+          <p className="font-bold mt-0 absolute  pt-[1px]">Total Events</p>
+          <p className="my-4 text-center p-2">5</p>
         </div>
-        <div className="w-1/2 border-black border h-20 p-4 rounded-[20px]">
-          <p>Hello world</p>
-          <p>Hello world</p>
+        <div className="w-1/2 flex flex-col items-center border-black border h-20 p-4 rounded-[20px]">
+          <p className="font-bold mt-[-12px]">Gender</p>
+          <div className="flex justify-between w-full">
+            <div className="flex flex-col items-start">
+              <p className="mx-1">Male</p>
+              <p className="mx-1">Female</p>
+            </div>
+            <div className="flex flex-col items-end">
+              <p className="mx-1">75</p>
+              <p className="mx-1">25</p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="flex-1  m-4 border border-black border relative rounded-[20px] justify-center align-center">
