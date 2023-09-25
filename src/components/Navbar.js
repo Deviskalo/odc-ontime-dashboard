@@ -5,10 +5,10 @@ import UserProfileImage from "../images/icons2.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-orange-600 p-4  flex justify-between items-center">
+    <div className="fixed top-0 left-0 right-0 bg-orange-600 p-4 flex justify-between items-center z-10">
       <div className="bg-white p-3 rounded-full">
         <Link to="/">
-          <img src={Logo} alt="logo" className="w-15 h-6 " />
+          <img src={Logo} alt="logo" className="w-15 h-6" />
         </Link>
       </div>
 
