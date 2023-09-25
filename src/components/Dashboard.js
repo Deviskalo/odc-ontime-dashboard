@@ -31,6 +31,7 @@ const Dashboard = () => {
 
   const chartRef = useRef(null);
 
+  // eslint-disable-next-line no-unused-vars
   const [dataa, setData] = useState(data);
 
   useEffect(() => {
