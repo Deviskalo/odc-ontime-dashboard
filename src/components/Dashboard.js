@@ -22,6 +22,8 @@ const data = {
       label: "OnTime Data",
       data: [12, 10, 3, 5, 2, 3, 7, 8, 19, 10, 11, 12],
       backgroundColor: "#E34518",
+      innerWidth: "20%",
+      innerHeight: "20%",
     },
   ],
 };
