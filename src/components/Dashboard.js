@@ -82,7 +82,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-      <div className="flex  m-4 mt-1 border border-black border relative rounded-[10px] justify-center align-center">
+      <div className="flex  m-4 mt-1 border border-black border h-[50%] relative rounded-[10px] justify-center align-center">
         <canvas ref={canvasRef}></canvas>
       </div>
 
